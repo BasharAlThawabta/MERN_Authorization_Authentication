@@ -1,0 +1,334 @@
+
+body {
+
+	background-color: #0072B1;
+}
+.App {
+	text-align: center;
+	font-size:30px;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.names{
+	
+	font-size:90px;
+}
+
+.div form{
+	background-color: #042C71;
+    border-radius: 11px;
+    border: 0px solid #042C71;
+    box-shadow: 0px 0px 11px -2px #042C71;
+    padding: 60px;
+	
+}
+.div {
+	 
+	box-shadow:white;
+	z-index:1;
+	position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.div input{
+	
+	border: none;
+    color: white;
+    background: none;
+    outline: none;
+	font-weight:bold;
+	font-size:17px;
+    margin: auto auto 16px auto;
+    padding: 12px;
+    display: flex;
+    width: 265px;
+    height: 29px;
+	    border-bottom: 1px solid #6CFBCE;
+	
+}
+
+.div button{
+	
+  font-size: 20px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  background: #efefef;
+  border-radius: 10px;
+  width: 100%;
+  color: black;
+  background-color: hsl(0deg 0% 100%);
+  margin: auto auto 16px auto;
+    
+    
+    font-size: 21px;
+	
+	
+}
+.div label{
+	 
+	
+    font-family: system-ui;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+	
+}
+.options{
+	margin-right: 12px;
+	font-size: 20px;
+	border-color:gray;
+}
+
+
+.button:hover{
+	
+	background-color: #0072B1;
+	
+	color:white;
+}
+
+
+.imgAuthentication {
+  top: 308px;
+  right: 0;
+  background-position: right;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 60%;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.3;
+  animation-name: fadeToRight;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeToRight {
+  from {
+    right: 20%;
+    opacity: 0.3;
+  }
+  to {
+    right: 0;
+    opacity: 0.3;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .imgAuthentication {
+    opacity: 0.04;
+  }
+}
+
+.registerForm{
+	 z-index: 1;
+	 position: absolute;
+}
+
+.button1{
+	font-size: 20px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  background: #efefef;
+  border-radius: 10px;
+  width: 100%;
+  color: hsl(17, 88%, 50%);
+  
+  margin: auto auto 16px auto;
+  font-size: 21px;
+
+	
+}
+
+.button1:hover{
+	background-color: #0072B1;
+	
+	
+	color:white;
+}
+
+.LoginButton{
+	text-decoration:none;
+	
+}
+
+.RegisterText{
+	
+	font-weight: bold;
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.SpanTextRegister{
+	font-size: 20px;
+	font-weight: bold;
+    text-decoration: none;
+    color: #00eeff;
+	  transition: 0.5s;
+
+}
+
+.SpanTextRegister:hover{
+	
+	color :white;
+}
+
+.ul{
+	font-size:24px;
+	
+}
+
+.selectList {
+  margin-bottom: 25px;
+  text-align: left;
+  color: white;
+  background: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 100px;
+  border-color: #5ac8fa;
+  font-size: 17px;
+}
+
+.selectList option {
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #042C71;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
+
+.selectList option:hover {
+  background-color: #1167b1;
+}
+
+
+.selectList option:checked {
+  background-color: #0d4f8a;
+}
+
+
+.icon{
+    margin-left: 3px;
+    justify-items: center;
+    padding: 3px;
+    background-color: white;
+    color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    margin-right: 33px;
+	
+
+}
+.icon:hover{
+	background-color: blue;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+
+.divSocials{
+	box-shadow:white;
+	z-index:1;
+	position:relative;
+    display: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+	
+}
+
+.table table, th, td {
+	
+	font-size: 20px;
+    border-radius: 6px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+.table button {
+	    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: red;	
+	transition: 0.5s ease;
+}
+.table button:hover {
+	background-color:white;
+	    color:blue;
+}
+
+
+.hrNote{
+	font-weight: bold;
+    font-size: 20px;
+    padding-top: 54px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 16px;
+    background-color: #6CFBCE;
+    height: 100px;
+}
